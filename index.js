@@ -28,7 +28,7 @@ const client = new Client({
 const app = express();
 const port = 3000;
 app.get('/', (req, res) => {
-  res.send('Giving Gifts to winner✨');
+  res.send('Im Up✨');
 });
 app.listen(port, () => {
   console.log(`🔗 Listening to RTX: http://localhost:${port}`);
@@ -36,7 +36,7 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["Giving Gifts to winner✨"];
+const statusMessages = ["Watching Order at m/Rewards✨"];
 
 
 let currentIndex = 0;
